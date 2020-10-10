@@ -20,16 +20,16 @@ class Resume extends Component{
           <Cell col = {4}>
             <div style = {{textAlign: "center"}}>
               <img
-                src = "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/48362990_100283491029651_6827803278177206272_o.jpg?_nc_cat=111&_nc_ohc=aPFSvnmloHAAQlG06mDarkkkIlY-6QfS0XO127smSvSeTGYJrmEgxsfdQ&_nc_ht=scontent-lax3-2.xx&oh=608e958121a368124dc52571db0a3c6b&oe=5EAD15B8"
+                src = "https://i.imgur.com/bnIdyvi.jpg"
                 alt = "avatar"
-                style = {{height: "200px", }}
+                style = {{height: "200px", marginBottom: "0px"}}
               />
             </div>
 
             <h2 style ={{paddingTop: "2em"}}>Carlos He He</h2>
             {/* <h4 style = {{color: "grey"}}>Programmer</h4> */}
             <hr style = {{borderTop: "2.5px solid #FF7F50", width: "100%"}}></hr> 
-            <p>Passionate student looking for an internship or entry-level position.</p>
+            <p>Passionate student looking for an entry-level full-time position.</p>
             <hr style = {{borderTop: "2.5px solid #FF7F50", width: "100%"}}></hr> 
             <h5>Address</h5>
             <p>305 NE Spaulding Apt 2, Pullman WA 99163</p>
@@ -37,9 +37,6 @@ class Resume extends Component{
             <p>(646)-546-7506</p>
             <h5>Email</h5>
             <p>carlos.hehe@wsu.edu</p>
-            <h5>Web</h5>
-            <a href = "carloshehe.com" target = "_blank" rel = "noopener noreferrer">carloshehe.com</a>
-            {/* <hr style = {{borderTop: "3px solid #833fb2", width: "50%"}}></hr> */}
 
           </Cell>
           <Cell className = "resume-right-col" col = {8}>
@@ -61,6 +58,18 @@ class Resume extends Component{
             <h2>Experience</h2>
 
             <Experience
+              companyName = "Apptio"
+              startYear = "May 2020"
+              endYear = "August 2020"
+              jobName = "Software Development Engineer Intern"                      
+              jobDescription = "Implemented a Powerpoint export feature for the cost transparency product.."              
+              jobDescription2 = "Feature allows data and charts to be exported to powerpoint files."
+              jobDescription3 = "Developed using GWT and Java."              
+              jobDescription4 = "Used Aspose Slides as main library."              
+              jobDescription5 = "Resolved jira tickets related to cost transparency issues."              
+            />
+
+            <Experience
               companyName = "Empirical Wealth Management"
               startYear = "May 2019"
               endYear = "August 2019"
@@ -73,8 +82,8 @@ class Resume extends Component{
 
             <Experience
               companyName = "AIG"
-              startYear = {2009}
-              endYear = {2012}
+              startYear = "July 2015"
+              endYear = "June 2017"
               jobName = "Tax Assistant"        
               jobDescription = "Prepare Forms 5471 and other related forms based on entities filling requirements using CorpTax and Taxstream during tax compliance season."
               jobDescription2 = "Contributed to corporate taxation team to update quarterly financials and discrete items"
@@ -98,6 +107,7 @@ class Resume extends Component{
                   <li>C</li>
                   <li>C++</li>
                   <li>Java</li>
+                  <li>AWS</li>
                 </ul>
               </div>
 
